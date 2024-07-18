@@ -1,0 +1,143 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Google Fonts - andika */
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+
+/* top title */
+
+.top-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.top-title h2{
+  color: #333333;
+  font-size: 24px;
+
+}
+
+/* Header and Footer CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  header {
+    background-color: #1c6920;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  
+  footer {
+    background-color: #1c6920;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .footer {
+    margin-top: auto;
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .footer p{
+    margin: auto;
+  
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header-content,
+    .footer-content {
+        padding: 0 20px;
+    }
+  }
+
+  /* Layout CSS */
+
+  .container {
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .content {
+    font-family: 'adika', sans-serif;
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+    background-image: url("tv-screen.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px 40px;
+    color: rgb(34, 34, 34);
+    
+  }
+
+ .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+ }
+
+ /* BOOTSTRAP CSS */
+
+ .btn-success {
+    background-color: #000000 !important;
+    border: 1px solid #000000 !important;
+    padding: 8px !important;
+ }
+
+ .btn-success:hover {
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+  color: #0f9903 !important;
+}
+ 
+ .btn-danger {
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+  padding: 8px !important;
+}
+
+.btn-danger:hover {
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+  color: #f52c2c !important;
+}
+
+ /* Course CSS */
+ .content div{
+  display: none;
+ }
+
+
+
+
+
+ 
